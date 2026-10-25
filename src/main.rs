@@ -1,3 +1,13 @@
+// block code
 fn main() {
-    println!("Hello, world!");
+    {
+        let x = 10;
+        println!("{x}");
+        {
+            let y = 15;
+            println!("{y}")
+        }
+    }
+    println!("After block code");
+
 }
